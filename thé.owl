@@ -1,0 +1,3227 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/chengwanli/mustapha/tea"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/chengwanli/mustapha/tea">
+    <Prefix name="" IRI="http://www.semanticweb.org/chengwanli/mustapha/tea"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="fr">Ce travail est réalisé par Chengwanli et Mustapha</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Additif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bienfait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplètementOxydé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarlGrey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpiceBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeuilleDuThé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeuilleDuThéBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FleurEtHerbe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FleurEtHerbeBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FruitBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingrédient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LégèrementOxydé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matcha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maté"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MatéBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MontagneBleu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonOxydé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Origine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OxydationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartiellementOxydé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOxydé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOxydé2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rooibos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RooibosBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thé20€-50€"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéAuJasmin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéAuxFleurs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéAuxHerbes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéBio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéBlanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéDarjeeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéDétox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéEpicé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéFleurDeGeisha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéIntéressant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéLongJing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéMoins20€"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéNoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéOolong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéParfumé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéPuerh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéPur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéRooibos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéSoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéVanille"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéVert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéVertBioGingembreCitronVert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThéVertMenthe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VertGingembre-citron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteBellini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thé50€+"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aIngrédient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apporteBienfait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estOrigineDE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estProduitDe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aPrix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estSurContinent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AideSommeil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmériqueDuSud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeCool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CitronBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Detoxbio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DongDingOolong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Honeybush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JasminMagique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lipton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Longjing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LovelyNight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MatchaBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MatchaUji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MentheBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Menthe_poivrée"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OnlySpices"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PuerhBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Théier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vanille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VertJasminbio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abricot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amande"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bergamote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bleuet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#camomille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cannelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caramel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cardamome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#citron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#citron_vert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clous_de_girofle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cynorhodon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fenouil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fleur_de_cerisier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fraise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gingembre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jasmin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lavande"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maté"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matéBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menthe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montagneBleu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ortie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pamplemousse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poivre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pomme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pêche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reine_des_prés"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rooibos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rooibosBio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#réglisse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sarrasin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spiruline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tilleul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vanille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#verveine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#écorce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Thé20€-50€"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#aPrix"/>
+                <DataIntersectionOf>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:integer"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:integer"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                </DataIntersectionOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéAuxHerbes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectComplementOf>
+                <ObjectUnionOf>
+                    <Class IRI="#FeuilleDuThéBio"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#aIngrédientBasique"/>
+                        <Class IRI="#FeuilleDuThé"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéBio"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aIngrédientBasique"/>
+                <ObjectUnionOf>
+                    <Class IRI="#FeuilleDuThéBio"/>
+                    <Class IRI="#MatéBio"/>
+                    <Class IRI="#RooibosBio"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéBio"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+                <ObjectUnionOf>
+                    <Class IRI="#EpiceBio"/>
+                    <Class IRI="#FleurEtHerbeBio"/>
+                    <Class IRI="#FruitBio"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéMoins20€"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#aPrix"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéParfumé"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+                    <Class IRI="#FleurEtHerbe"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+                    <Class IRI="#FleurEtHerbeBio"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéParfumé"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aIngrédientBasique"/>
+                <ObjectUnionOf>
+                    <Class IRI="#FeuilleDuThé"/>
+                    <Class IRI="#FeuilleDuThéBio"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéPur"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectUnionOf>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientBasique"/>
+                    <Class IRI="#FeuilleDuThé"/>
+                </ObjectAllValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientBasique"/>
+                    <Class IRI="#FeuilleDuThéBio"/>
+                </ObjectAllValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ThéRooibos"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientBasique"/>
+                    <Class IRI="#Rooibos"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#aIngrédientBasique"/>
+                    <Class IRI="#RooibosBio"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Thé50€+"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Thé"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#aPrix"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Additif"/>
+        <Class IRI="#Ingrédient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base"/>
+        <Class IRI="#Ingrédient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplètementOxydé"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarlGrey"/>
+        <Class IRI="#ThéNoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epice"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpiceBio"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeuilleDuThé"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeuilleDuThéBio"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FleurEtHerbe"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FleurEtHerbeBio"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FruitBio"/>
+        <Class IRI="#Additif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LégèrementOxydé"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matcha"/>
+        <Class IRI="#ThéVert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maté"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MatéBio"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MontagneBleu"/>
+        <Class IRI="#ThéNoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonOxydé"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartiellementOxydé"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostOxydé"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostOxydé2"/>
+        <Class IRI="#OxydationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rooibos"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RooibosBio"/>
+        <Class IRI="#Base"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thé20€-50€"/>
+        <Class IRI="#Prix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéAuJasmin"/>
+        <Class IRI="#ThéAuxFleurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéAuxFleurs"/>
+        <Class IRI="#ThéParfumé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéAuxHerbes"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéBio"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéBlanc"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéDarjeeling"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéDétox"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéEpicé"/>
+        <Class IRI="#ThéAuxHerbes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéFleurDeGeisha"/>
+        <Class IRI="#ThéAuxFleurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéFleurDeGeisha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+            <Class IRI="#FleurEtHerbe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéIntéressant"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéLongJing"/>
+        <Class IRI="#ThéVert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéMoins20€"/>
+        <Class IRI="#Prix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéNoir"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéOolong"/>
+        <Class IRI="#ThéPur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéParfumé"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéPuerh"/>
+        <Class IRI="#ThéPur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéPur"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéRooibos"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéSoir"/>
+        <Class IRI="#ThéAuxHerbes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéVanille"/>
+        <Class IRI="#ThéParfumé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéVert"/>
+        <Class IRI="#Thé"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéVertBioGingembreCitronVert"/>
+        <Class IRI="#ThéVert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThéVertMenthe"/>
+        <Class IRI="#ThéVert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VertGingembre-citron"/>
+        <Class IRI="#ThéVert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteBellini"/>
+        <Class IRI="#ThéBlanc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thé50€+"/>
+        <Class IRI="#Prix"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Epice"/>
+        <Class IRI="#EpiceBio"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FleurEtHerbe"/>
+        <Class IRI="#FleurEtHerbeBio"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#FruitBio"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LégèrementOxydé"/>
+        <Class IRI="#NonOxydé"/>
+        <Class IRI="#PartiellementOxydé"/>
+        <Class IRI="#PostOxydé"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ThéAuxHerbes"/>
+        <Class IRI="#ThéPur"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Origine"/>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#AideSommeil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Origine"/>
+        <NamedIndividual IRI="#AmériqueDuSud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéEpicé"/>
+        <NamedIndividual IRI="#BeCool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéIntéressant"/>
+        <NamedIndividual IRI="#BeCool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Origine"/>
+        <NamedIndividual IRI="#Chine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FruitBio"/>
+        <NamedIndividual IRI="#CitronBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDarjeeling"/>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDarjeeling"/>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDétox"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVert"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéOolong"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDétox"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVert"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EarlGrey"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéFleurDeGeisha"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéAuJasmin"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéOolong"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#Honeybush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Origine"/>
+        <NamedIndividual IRI="#Inde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Origine"/>
+        <NamedIndividual IRI="#Japon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéAuJasmin"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Lipton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéLongJing"/>
+        <NamedIndividual IRI="#Longjing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéPur"/>
+        <NamedIndividual IRI="#Longjing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéLongJing"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéPur"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéIntéressant"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéSoir"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Matcha"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Matcha"/>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Matcha"/>
+        <NamedIndividual IRI="#MatchaUji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EpiceBio"/>
+        <NamedIndividual IRI="#MentheBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#Menthe_poivrée"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéEpicé"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéIntéressant"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EarlGrey"/>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéPuerh"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéPuerh"/>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéRooibos"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVanille"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVertMenthe"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDarjeeling"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVanille"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDétox"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéIntéressant"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVert"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVertMenthe"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVertMenthe"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FeuilleDuThé"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FeuilleDuThéBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVanille"/>
+        <NamedIndividual IRI="#Vanille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVanille"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVanille"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéAuJasmin"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteBellini"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#abricot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#amande"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#anis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#bergamote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#bleuet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#camomille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#cannelle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#caramel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#cardamome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#citron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#citron_vert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#clous_de_girofle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#cynorhodon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#fenouil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#fleur_de_cerisier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#fraise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#gingembre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#jasmin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#lavande"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Maté"/>
+        <NamedIndividual IRI="#maté"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MatéBio"/>
+        <NamedIndividual IRI="#matéBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#menthe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#miel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MontagneBleu"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéIntéressant"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#ortie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#pamplemousse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#poire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#poivre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#pomme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#pêche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#reine_des_prés"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooibos"/>
+        <NamedIndividual IRI="#rooibos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RooibosBio"/>
+        <NamedIndividual IRI="#rooibosBio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#rose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#réglisse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#sarrasin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#spiruline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéVertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#tilleul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FleurEtHerbe"/>
+        <NamedIndividual IRI="#verveine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epice"/>
+        <NamedIndividual IRI="#écorce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDarjeeling"/>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéBio"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ThéDarjeeling"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+        <NamedIndividual IRI="#AmériqueDuSud"/>
+        <NamedIndividual IRI="#Chine"/>
+        <NamedIndividual IRI="#Inde"/>
+        <NamedIndividual IRI="#Japon"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AideSommeil"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#DammannFrères"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+        <NamedIndividual IRI="#Lipton"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Honeybush"/>
+        <NamedIndividual IRI="#bleuet"/>
+        <NamedIndividual IRI="#camomille"/>
+        <NamedIndividual IRI="#fleur_de_cerisier"/>
+        <NamedIndividual IRI="#jasmin"/>
+        <NamedIndividual IRI="#ortie"/>
+        <NamedIndividual IRI="#reine_des_prés"/>
+        <NamedIndividual IRI="#rose"/>
+        <NamedIndividual IRI="#sarrasin"/>
+        <NamedIndividual IRI="#spiruline"/>
+        <NamedIndividual IRI="#tilleul"/>
+        <NamedIndividual IRI="#verveine"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Menthe_poivrée"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#anis"/>
+        <NamedIndividual IRI="#cannelle"/>
+        <NamedIndividual IRI="#caramel"/>
+        <NamedIndividual IRI="#cardamome"/>
+        <NamedIndividual IRI="#clous_de_girofle"/>
+        <NamedIndividual IRI="#fenouil"/>
+        <NamedIndividual IRI="#gingembre"/>
+        <NamedIndividual IRI="#menthe"/>
+        <NamedIndividual IRI="#poivre"/>
+        <NamedIndividual IRI="#réglisse"/>
+        <NamedIndividual IRI="#écorce"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Théier"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+        <NamedIndividual IRI="#matéBio"/>
+        <NamedIndividual IRI="#rooibosBio"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Théier"/>
+        <NamedIndividual IRI="#maté"/>
+        <NamedIndividual IRI="#rooibos"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#abricot"/>
+        <NamedIndividual IRI="#amande"/>
+        <NamedIndividual IRI="#bergamote"/>
+        <NamedIndividual IRI="#citron"/>
+        <NamedIndividual IRI="#citron_vert"/>
+        <NamedIndividual IRI="#cynorhodon"/>
+        <NamedIndividual IRI="#pamplemousse"/>
+        <NamedIndividual IRI="#poire"/>
+        <NamedIndividual IRI="#pomme"/>
+        <NamedIndividual IRI="#pêche"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#fraise"/>
+        <NamedIndividual IRI="#lavande"/>
+        <NamedIndividual IRI="#miel"/>
+        <NamedIndividual IRI="#poire"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#Menthe_poivrée"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#anis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#cynorhodon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#pomme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#réglisse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#verveine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <NamedIndividual IRI="#maté"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <NamedIndividual IRI="#CitronBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#poire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#sarrasin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#spiruline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+        <NamedIndividual IRI="#bleuet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <NamedIndividual IRI="#fleur_de_cerisier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <NamedIndividual IRI="#jasmin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <NamedIndividual IRI="#jasmin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#Longjing"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Longjing"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#Longjing"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#rooibos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#Honeybush"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#camomille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#cannelle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#poire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#réglisse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#tilleul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#verveine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#AideSommeil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#MatchaUji"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#MatchaUji"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#MatchaUji"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#anis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#cannelle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#cardamome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#clous_de_girofle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#fenouil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#gingembre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#poire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#réglisse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <NamedIndividual IRI="#rooibosBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <NamedIndividual IRI="#FacilitéDigestion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#menthe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#rose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+        <NamedIndividual IRI="#Lipton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#caramel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <NamedIndividual IRI="#Lipton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#ortie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#pamplemousse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#reine_des_prés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#écorce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <NamedIndividual IRI="#Lipton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <NamedIndividual IRI="#MentheBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+        <NamedIndividual IRI="#menthe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#Théier"/>
+        <NamedIndividual IRI="#Chine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#Théier"/>
+        <NamedIndividual IRI="#Inde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#Théier"/>
+        <NamedIndividual IRI="#Japon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+        <NamedIndividual IRI="#Chine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+        <NamedIndividual IRI="#Inde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+        <NamedIndividual IRI="#Japon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#amande"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <NamedIndividual IRI="#vanille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <NamedIndividual IRI="#jasmin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+        <NamedIndividual IRI="#PréventionCancers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+        <NamedIndividual IRI="#DammannFrères"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+        <NamedIndividual IRI="#maté"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#maté"/>
+        <NamedIndividual IRI="#AmériqueDuSud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#matéBio"/>
+        <NamedIndividual IRI="#AmériqueDuSud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#bleuet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#fraise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#lavande"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#miel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <NamedIndividual IRI="#PalaisDesThés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#rooibos"/>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <NamedIndividual IRI="#rooibosBio"/>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#citron_vert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#gingembre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#PerteDePoids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#RéductionStress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#thévertBioGingembreCitronVert"/>
+        <NamedIndividual IRI="#Lipton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+        <NamedIndividual IRI="#Théier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+        <NamedIndividual IRI="#ThéierBio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+        <NamedIndividual IRI="#DiminutionRisqueMaladieCardiovasculaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+        <NamedIndividual IRI="#KusmiTea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+        <NamedIndividual IRI="#MariageFrères"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estSurContinent"/>
+        <NamedIndividual IRI="#AfriqueduSud"/>
+        <Literal>Afrique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#BeCool"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estSurContinent"/>
+        <NamedIndividual IRI="#Chine"/>
+        <Literal>Asie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DarjeelingAbsolu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DarjeelingPhuguriRubyPearl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#Detoxbio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DongDingOolong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DétoxJaponaiseBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#EarlGreyFleursBleus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#FleurDeGeisha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#GrandJasminMaoFeng"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#GrandOolongFancy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estSurContinent"/>
+        <NamedIndividual IRI="#Inde"/>
+        <Literal>Asie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estSurContinent"/>
+        <NamedIndividual IRI="#Japon"/>
+        <Literal>Asie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#JasminMagique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#Longjing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#LongjingImpérial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#LovelyNight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#MatchaBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">96</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#MatchaImpérial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#MatchaUji"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#OnlySpices"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ParisEarlGrey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#PuerhBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#PuerhImpéral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#RooibosVanilleBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéAuSahara"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéNoirDarjeelingBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéVanilleCaramel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéVertDetox"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéVertMentheBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#ThéVertMentheInstence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#Vanille"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#Vanille-Amande"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#VanilleOrchidéeVert"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#VertJasminbio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#WhiteBelliniBio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#montagneBleu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DarjeelingMargaret&apos;sHope"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aPrix"/>
+        <NamedIndividual IRI="#DarjeelingN°37Bio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <ObjectProperty IRI="#aIngrédient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <ObjectProperty IRI="#aIngrédient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aIngrédient"/>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#aIngrédient"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aIngrédient"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+        <Class IRI="#Additif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+        <Class IRI="#Ingrédient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+        <Class IRI="#Base"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aIngrédient"/>
+        <Class IRI="#Ingrédient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aIngrédientBasique"/>
+        <Class IRI="#Base"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aIngrédientComplémentaire"/>
+        <Class IRI="#Additif"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apporteBienfait"/>
+        <Class IRI="#Bienfait"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estIngrédientComplémentaireDe"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estIngrédientDe"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estIngrédientbasiqueDe"/>
+        <Class IRI="#Thé"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estOrigineDE"/>
+        <Class IRI="#Origine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estProduitDe"/>
+        <Class IRI="#Marque"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aPrix"/>
+        <Class IRI="#Thé"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#estSurContinent"/>
+        <Class IRI="#Origine"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#aPrix"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#estSurContinent"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Additif</IRI>
+        <Literal xml:lang="cn">添加的配料</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Base</IRI>
+        <Literal xml:lang="cn">基本配料</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeCool</IRI>
+        <Literal xml:lang="fr">Menthe poivrée* (22%), verveine* (21%), pomme*, cynorhodon*, réglisse* (10%), anis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bienfait</IRI>
+        <Literal xml:lang="cn">益处</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ComplètementOxydé</IRI>
+        <Literal xml:lang="fr">Couleur noire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComplètementOxydé</IRI>
+        <Literal xml:lang="cn">完全氧化</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Detoxbio</IRI>
+        <Literal xml:lang="fr">Thé vert - maté - citron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DétoxJaponaiseBio</IRI>
+        <Literal xml:lang="fr">Un délicieux mélange BIO de thé vert Sencha, spiruline et sarrasin, aux notes apaisantes de poire nashi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EarlGrey</IRI>
+        <Literal xml:lang="cn">伯爵茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EarlGreyFleursBleus</IRI>
+        <Literal xml:lang="fr">Ce thé noir aux pétales de bleuets va faire succomber tous ceux qui aiment les mélanges parfumés à la bergamote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Epice</IRI>
+        <Literal xml:lang="cn">香料</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EpiceBio</IRI>
+        <Literal xml:lang="cn">有机香料</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FacilitéDigestion</IRI>
+        <Literal>puerh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeuilleDuThé</IRI>
+        <Literal xml:lang="cn">茶叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeuilleDuThéBio</IRI>
+        <Literal xml:lang="cn">有机茶叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FleurDeGeisha</IRI>
+        <Literal xml:lang="fr">Un thé vert doux et parfumé dont le bouquet évoque la fleur de cerisier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FleurEtHerbe</IRI>
+        <Literal xml:lang="cn">花和草药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FleurEtHerbeBio</IRI>
+        <Literal xml:lang="cn">有机花和草药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fruit</IRI>
+        <Literal xml:lang="cn">水果</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FruitBio</IRI>
+        <Literal xml:lang="cn">有机水果</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GrandJasminMaoFeng</IRI>
+        <Literal xml:lang="fr">Ce thé composé essentiellement de bourgeons donne ses lettres de noblesse au Jasmin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ingrédient</IRI>
+        <Literal xml:lang="cn">配料</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LovelyNight</IRI>
+        <Literal xml:lang="fr">Honeybush*(31%), rooibos*(20%), cannelle*, tilleul*, réglisse*, camomille*, verveine*, arôme poire (5%).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LégèrementOxydé</IRI>
+        <Literal xml:lang="fr">Couleur jaune</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LégèrementOxydé</IRI>
+        <Literal xml:lang="cn">轻氧化</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marque</IRI>
+        <Literal xml:lang="fr">Des marques françaises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Marque</IRI>
+        <Literal xml:lang="cn">品牌</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Matcha</IRI>
+        <Literal xml:lang="cn">抹茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MatchaUji</IRI>
+        <Literal xml:lang="fr">thé est composé des feuilles du tendre Gyokuro réduites en poudre dans des meules de pierre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Maté</IRI>
+        <Literal xml:lang="cn">马黛茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MatéBio</IRI>
+        <Literal xml:lang="cn">有机马黛茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MontagneBleu</IRI>
+        <Literal xml:lang="cn">蓝山茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NonOxydé</IRI>
+        <Literal xml:lang="fr">Couleur verte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NonOxydé</IRI>
+        <Literal xml:lang="cn">无氧化</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OnlySpices</IRI>
+        <Literal xml:lang="fr">Anis*, fenouil*, réglisse*, cardamome*, gingembre*, cannelle*, poivre*, clous de girofle*</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Origine</IRI>
+        <Literal xml:lang="cn">起源地</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OxydationType</IRI>
+        <Literal xml:lang="cn">氧化类型</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PartiellementOxydé</IRI>
+        <Literal xml:lang="fr">Couleur rouge foncée</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PartiellementOxydé</IRI>
+        <Literal xml:lang="cn">部分氧化</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PostOxydé</IRI>
+        <Literal xml:lang="fr">Couleur noire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PostOxydé</IRI>
+        <Literal xml:lang="cn">后氧化</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PostOxydé2</IRI>
+        <Literal xml:lang="fr">Couleur noire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PostOxydé2</IRI>
+        <Literal xml:lang="cn">后氧化2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prix</IRI>
+        <Literal>Prix ( euro ) par 100 gramme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prix</IRI>
+        <Literal xml:lang="cn">价格</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rooibos</IRI>
+        <Literal xml:lang="cn">南非茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RooibosBio</IRI>
+        <Literal xml:lang="cn">有机南非茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RooibosVanilleBio</IRI>
+        <Literal xml:lang="fr">Rooibos*, arôme vanille.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thé</IRI>
+        <Literal xml:lang="cn">茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thé20€-50€</IRI>
+        <Literal xml:lang="cn">价格在20-50欧元</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéAuJasmin</IRI>
+        <Literal xml:lang="cn">茉莉花茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéAuSahara</IRI>
+        <Literal>Ce thé vert à feuilles entières est enrichi de feuilles de menthe et de pétales de rose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéAuxFleurs</IRI>
+        <Literal xml:lang="cn">花茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéAuxHerbes</IRI>
+        <Literal xml:lang="fr">Herbes mais pas de feuilles de thé ou feuilles de thé bio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéAuxHerbes</IRI>
+        <Literal xml:lang="cn">草药茶但没有茶叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéBio</IRI>
+        <Literal>Thé issu de l&apos;agriculture biologique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéBio</IRI>
+        <Literal xml:lang="cn">有机茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéBlanc</IRI>
+        <Literal>thé légèrement oxydé</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéBlanc</IRI>
+        <Literal xml:lang="cn">白茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéDarjeeling</IRI>
+        <Literal xml:lang="cn">印度茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéDétox</IRI>
+        <Literal xml:lang="cn">排毒茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéEpicé</IRI>
+        <Literal xml:lang="cn">调味茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéFleurDeGeisha</IRI>
+        <Literal xml:lang="cn">日本花茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéIntéressant</IRI>
+        <Literal>Thé avec plus de trois additifs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéIntéressant</IRI>
+        <Literal xml:lang="cn">有趣的茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéLongJing</IRI>
+        <Literal xml:lang="cn">龙井茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéMoins20€</IRI>
+        <Literal xml:lang="cn">价格小于20欧元</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéNoir</IRI>
+        <Literal xml:lang="cn">红茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéOolong</IRI>
+        <Literal xml:lang="cn">乌龙茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéParfumé</IRI>
+        <Literal>Ajout de fleur ...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéParfumé</IRI>
+        <Literal xml:lang="cn">香味茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéPuerh</IRI>
+        <Literal xml:lang="cn">普洱茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéPur</IRI>
+        <Literal>uniquement feuilles du thé, sans additif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéPur</IRI>
+        <Literal xml:lang="cn">纯的茶叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéRooibos</IRI>
+        <Literal xml:lang="cn">南非茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéSoir</IRI>
+        <Literal xml:lang="cn">晚安茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéVanille</IRI>
+        <Literal xml:lang="cn">香草茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéVanilleCaramel</IRI>
+        <Literal xml:lang="fr">Thé Noir Vanille Caramel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéVert</IRI>
+        <Literal xml:lang="cn">绿茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéVertBioGingembreCitronVert</IRI>
+        <Literal xml:lang="cn">有机姜绿柠檬绿茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThéVertDetox</IRI>
+        <Literal xml:lang="fr">thé vert, de reine des prés, d’ortie et d’écorces de pamplemouss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThéVertMenthe</IRI>
+        <Literal xml:lang="cn">薄荷绿茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vanille</IRI>
+        <Literal xml:lang="fr">thé noir aux notes chaleureuses et épicées de vanille.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VanilleOrchidéeVert</IRI>
+        <Literal xml:lang="fr">Un thé vert Jardin Premier®, rond et soyeux, parsemé de notes vanillées, sur un fond gourmand velouté.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VertGingembre-citron</IRI>
+        <Literal xml:lang="cn">柠檬姜绿茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VertJasminbio</IRI>
+        <Literal xml:lang="fr">thé vert bio parfumé au jasmin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteBellini</IRI>
+        <Literal xml:lang="cn">白基尼茶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aPrix</IRI>
+        <Literal xml:lang="fr">Prix en euro par 100 grammes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#montagneBleu</IRI>
+        <Literal xml:lang="fr">Mélange de thé noir, de miel, de lavande, de fraise, de bleuet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#thévertBioGingembreCitronVert</IRI>
+        <Literal xml:lang="fr">thé vert bio associé aux notes fraîches du gingembre et du citron vert, naturellement délicieux.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thé50€+</IRI>
+        <Literal xml:lang="fr">Prix plus de 50 euros</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thé50€+</IRI>
+        <Literal xml:lang="cn">价格大于50欧元</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
